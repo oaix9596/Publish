@@ -1,0 +1,48 @@
+========================================================================================
+Report      : ERROR
+Date        : Mon Mar 05 18:56:10 EST 2018
+Description : Thread deadlocked:  "OSPL Lease Renew Thread":d:13->13
+Node        : oaix-XPS-13-9360
+Process     : polysync-publisher-cpp <4475>
+Thread      : threadsWatchdog 7ff32f619700
+Internals   : 6.7.170912OSS///threadsWatchdog/s_threadsMonitor.c/207/0/1520294170.844292112/-1
+========================================================================================
+Report      : ERROR
+Date        : Mon Mar 05 18:56:10 EST 2018
+Description : Unknown service 'splicedaemon' died
+Node        : oaix-XPS-13-9360
+Process     : polysync-publisher-cpp <4475>
+Thread      : ServiceManager 7ff32f4e4700
+Internals   : 6.7.170912OSS///OpenSplice domain service/serviceMonitor.c/73/0/1520294170.844340989/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Mar 25 17:56:10 EDT 2018
+Description : Unknown service 'splicedaemon' died
+Node        : oaix-XPS-13-9360
+Process     : polysync-publisher-cpp <3276>
+Thread      : ServiceManager 7f23fea04700
+Internals   : 6.7.170912OSS///OpenSplice domain service/serviceMonitor.c/73/0/1522014970.712631182/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Mar 25 17:56:10 EDT 2018
+Description : Splice-daemon failed to renew its lease within the configured lease expiry-time (10.000000000). The lease renewal took 10.614247364 s.
+Node        : oaix-XPS-13-9360
+Process     : polysync-publisher-cpp <3276>
+Thread      : OSPL Lease Renew Thread 7f23f6f22700
+Internals   : 6.7.170912OSS///OpenSplice domain service/spliced.c/170/0/1522014970.712713023/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Mar 25 17:56:10 EDT 2018
+Description : Unknown service 'splicedaemon' died
+Node        : oaix-XPS-13-9360
+Process     : polysync-publisher-cpp <3276>
+Thread      : ServiceManager 7f23fea04700
+Internals   : 6.7.170912OSS///OpenSplice domain service/serviceMonitor.c/73/0/1522014970.728609663/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Mar 25 17:56:20 EDT 2018
+Description : Unknown service 'splicedaemon' died
+Node        : oaix-XPS-13-9360
+Process     : polysync-publisher-cpp <3276>
+Thread      : ServiceManager 7f23fea04700
+Internals   : 6.7.170912OSS///OpenSplice domain service/serviceMonitor.c/73/0/1522014980.712910070/0
